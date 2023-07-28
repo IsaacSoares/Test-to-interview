@@ -1,0 +1,96 @@
+/* Retângulos */
+
+.ret-section-container {
+	padding-bottom: 5em;
+}
+
+
+.ret-container {
+
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	width: 90%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ret {
+	flex: 1 1 200px;
+	max-width: 275px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.ret ul {
+	padding: 0;
+}
+
+
+.ret li {
+		
+	list-style: none;
+}
+
+
+
+.red {
+
+	background-color: palevioletred;
+    height: 75px;
+
+}
+
+
+
+.blue {
+
+	background-color: blueviolet;
+    height: 75px;
+
+}
+
+
+.green {
+
+	background-color: #2cc76a;
+    height: 75px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 765px ){
+
+	.ret ul{
+		flex-wrap: wrap;
+	}
+
+.ret-container {
+
+	display: block;
+	justify-content: space-between;
+	margin-top: 50px;
+	width: 90%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+	.ret ul{
+		padding: 3em 2em;
+	}
+
+
+
+} 
